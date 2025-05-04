@@ -8,10 +8,14 @@
 ```
 
 ## Login to HuggingFace
+```
 export HF_TOKEN=PUT_TOKEN_HERE # Must have access to Llama 3.3 70B
+```
 
 ## Install Dependencies and Run
+```
 pip install -r requirements.txt
 apt update
 apt install pdsh
 deepspeed --hostfile=hostfile.txt  train_llama.py
+```
