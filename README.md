@@ -1,5 +1,4 @@
-# Set up the hostfile.txt
-i.e.:
+# Set up the hostfile.txt (update based on your configuration)
 10.65.0.2 slots=8
 10.65.0.3 slots=8
 10.65.0.4 slots=8
